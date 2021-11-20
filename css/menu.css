@@ -24,13 +24,12 @@ body, html {
      height: auto;
 }
 
-
 .seccion2{
 
     background-image: url("..//imagenes/circulo2.png");
     background-repeat: no-repeat;
-    padding-top: 256px;
-    padding-bottom: 256px;
+    padding-top: 100px;
+    padding-bottom: 500px;
 
 }
 .seccion1 h2{
@@ -40,5 +39,10 @@ body, html {
 
 .seccion2 h2{
     font-size: 40px;
+}
+footer{
+    background-image: url("..//imagenes/footer.png");
+
+    padding: 120px;
 }
  
