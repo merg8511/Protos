@@ -1,48 +1,44 @@
 a {
-    /*Boton*/
-    text-decoration: none;
-    color: black;
+  /*Boton*/
+  text-decoration: none;
+  color: black;
 }
 
-body, html {
-    height: 100%;
-  
-    /* The image used */
-    background-image: url("..//imagenes/circulo.png");
-  
-    /* Full height */
-    /*height: 100%;*/
-  
-    /* Center and scale the image nicely */
-    background-position: left;
-    background-repeat: no-repeat;
-    background-position-x: 30em;
+body,
+html {
+  height: 100%;
 
-  }
-.food{
-     width:120%;
-     height: auto;
+  /* The image used */
+  background-image: url("..//imagenes/circulo.png");
+
+  /* Full height */
+  /*height: 100%;*/
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 30em;
+}
+.food {
+  width: 120%;
+  height: auto;
 }
 
-.seccion2{
-
-    background-image: url("..//imagenes/circulo2.png");
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 500px;
-
+.seccion2 {
+  background-image: url("..//imagenes/circulo2.png");
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 500px;
 }
-.seccion1 h2{
-    font-size: 40px;
-
+.seccion1 h2 {
+  font-size: 40px;
 }
 
-.seccion2 h2{
-    font-size: 40px;
+.seccion2 h2 {
+  font-size: 40px;
 }
-footer{
-    background-image: url("..//imagenes/footer.png");
+footer {
+  background-image: url("..//imagenes/footer.png");
 
-    padding: 120px;
+  padding: 120px;
 }
- 

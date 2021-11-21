@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--MENU Y BACKGROUND-->
     <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
     <!--BOOTSTRAP 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
     <!--FUNCION PARA EL MENU-->
     <script src="JS/scritp.js"></script>
-    <title>Inicio</title>
+    <title>Login</title>
   </head>
   <body>
     <!--MENU-->
@@ -22,7 +31,75 @@
       <div w3-include-html="menu.html"></div>
     </header>
 
-    <div class="container-fluid p-3 text-white text-center"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white shadow-lg">
+          <div class="container form">
+            <div class="container bg-white">
+              <button class="btn btn-block p-3 shadow bg-white">
+                <i
+                  class="fab fa-google"
+                  style="color: crimson; text-align: left"
+                ></i>
+                <label>Ingresa con Google</label>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn btn-block p-3 shadow bg-white">
+                <i
+                  class="fab fa-facebook-f"
+                  style="color: blue; text-align: left"
+                ></i>
+                <label>Ingresa con Facebook</label>
+              </button>
+            </div>
+            <div class="row" style="text-align: center;color: darkgray;">
+              <div class="col-sm">
+                <label>_________________________    OR    _________________________</label>
+              </div>
+            </div>
+            <div class="container">
+              <!--
+            <label for="uname"><b>Username</b></label>-->
+              <input type="text" placeholder="Email" name="uname" required />
+              <!--
+            <label for="psw"><b>Password</b></label>-->
+              <input
+                type="password"
+                placeholder="Contraseña"
+                name="psw"
+                required
+              />
+
+              <a href="inicio.html"
+                ><button type="submit"><strong>Ingresar</strong></button></a
+              >
+              <div class="row">
+                <div class="col-sm-6">
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" />
+                    Recuérdame
+                  </label>
+                </div>
+                <div class="col-sm-6" style="text-align: right">
+                  <label>
+                    <a href="#">¿Olvidó su contraseña?</a>
+                  </label>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row" style="text-align: center">
+                  <div class="col-sm">
+                    <label>¿No tienes cuenta?</label> <a href="#">Registrate</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--FUNCION PARA EL MENU-->
     <script>
       includeHTML();
