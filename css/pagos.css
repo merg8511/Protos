@@ -1,0 +1,102 @@
+.input-container2
+{
+    position: relative;
+    margin: 1rem 0;
+}
+.form1{
+    margin: 0 auto;
+    width: 500%;
+    max-width: 1120px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:left;
+    padding-bottom: 20px;
+}
+.btn1 
+{
+  padding: 0.6rem 6.3rem;
+  background-color: #1B7978;
+  border: 1px solid #64C2C2;
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 25%;
+  margin-top: 12%;
+}
+.btn1:hover 
+{
+  background-color: transparent;
+  color: #64C2C2;
+}
+.input1
+{
+  width: 50%;
+  outline: none;
+  border: 2px solidb gray;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color:black;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.input2
+{
+  width: 70%;
+  outline: none;
+  border: 2px solidb gray;
+  background:whitesmoke;
+  padding: 0.6rem 1.2rem;
+  color:black;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.pago{
+    width: 45%;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 0.1rem 1.2rem;
+    transition: 0.3s;
+    background-color:lightgray;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    padding: 0.6rem 1.2rem;
+    line-height: 1;
+}
+.pago:hover{
+    background-color: transparent;
+    color: #64C2C2;
+}
+.title2{
+    margin-left: 20%;
+}
+.texto1{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom:0cm;
+}
+.titlte5{
+    margin-left: 10%;
+
+}
+.hr{ 
+    height: 10px;
+    background-color: black; 
+}
