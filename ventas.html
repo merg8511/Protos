@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--MENU Y BACKGROUND-->
-    <link href="css/menu.css" rel="stylesheet" />
-    <!--BOOTSTRAP 5-->
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <!--
+    -->
+    <link href="css/ventas.css" rel="stylesheet" type="text/css"/>
+      <!--BOOTSTRAP 5-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -20,7 +29,7 @@
       crossorigin="anonymous"
     />
     <!--FUNCION PARA EL MENU-->
-    <script src="JS/scritp.js"></script>
+    <script src="JS/scritp.js" type="text/javascript"></script>
     <title>Ventas</title>
   </head>
   <body>
@@ -29,22 +38,405 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10 bg-black">
-                <div class="row">
-                    <div class="col-sm-1 bg-danger" style="color: white;">Menu lateral</div>
-                    <div class="col-sm-8" style="color: white;">
-                        <div class="row">
-                            <div class="col-sm-4 bg-primary" style="text-align: center;">Primera Col</div>
-                            <div class="col-sm-4 bg-secondary" style="text-align: center;">Segundo Col</div>
-                            <div class="col-sm-4 bg-info" style="text-align: center;">Tercera Col</div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-sm-3 bg-warning" style="color: white;">Menu pago</div>
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <div class="row">
+            <div class="col-sm-1 corta" style="color: white">
+              <div class="row">
+                <div class="container">
+                  <div class="icon-bar" >
+                    <a class="active" style="background-color: black;color: #E7FEFE" href="#"><i class="fa fa-home"></i></a>
+                    <a href="#" style="background-color: #E7FEFE;color: black"><i class="fa fa-search"></i></a>
+                    <a href="#" style="background-color: #E7FEFE;color: black"><i class="fa fa-envelope"></i></a>
+                    <a href="#" style="background-color: #E7FEFE;color: black"><i class="fa fa-globe"></i></a>
+                    <a href="#" style="background-color: #E7FEFE;color: black"><i class="fa fa-trash"></i></a>
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="col-sm-8 bg-white" style="color: white">
+              <div class="row">
+                <div class="container">
+                  <div class="row">
+                    <label style="color: black; margin-left: 5%"
+                      ><h3>Mi Kai Veg</h3></label
+                    >
+                  </div>
+                  <label style="color: black; margin-left: 5%">
+                    <div style="float: left">
+                      <script type="text/javascript">
+                        //<![CDATA[
+                        var today = new Date();
+                        var m = today.getMonth() + 1;
+                        var mes = m < 10 ? "0" + m : m;
+                        document.write(
+                          today.getDate(),
+                          "/" + mes,
+                          "/" + today.getYear()
+                        );
+                        //]]>
+                      </script>
+                    </div>
+                  </label>
+                </div>
+                <hr />
+              </div>
+
+              <!-- *******************************AQUI EMPIEZA EL MENU ******************************-->
+              <div class="container mt-3" style="background-color: white">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home"
+                      >Platos calientes</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#buffet"
+                      >Buffet</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#carnes"
+                      >Carnes veganas</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#dulces"
+                      >Dulces</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#bebidas"
+                      >Bebidas</a
+                    >
+                  </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <!-- HOME -->
+                  <div id="home" class="container tab-pane active bg-white">
+                    <br />
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/pan.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Pan Bao</h4>
+                            <p class="card-text">
+                              Dorado de vegetales mixtos con carne de soya.
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/pavo.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Pan con Pavis</h4>
+                            <p class="card-text">
+                              Pan con pavis veg, normal o mini.
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/alitas.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Alitas de coliflor</h4>
+                            <p class="card-text">
+                              Alitas de Coliflor, con papas.
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/medallones.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Medallones</h4>
+                            <p class="card-text">
+                              Veganos, Chorizos empanizado con escabeche
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/burritos.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Burritos</h4>
+                            <p class="card-text">
+                              Con quesillo vegano, mediano y doble
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/pupusas.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Pupusas</h4>
+                            <p class="card-text">
+                              Quesillo vegana a base de alga, revueltas.
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <br />
+                  </div>
+                  <!-- MENU 1 -->
+                  <div id="buffet" class="container tab-pane fade bg-white">
+                    <br />
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/agri.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Pollo</h4>
+                            <p class="card-text">Pollo Vegano agridulce .</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/buffet.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Almuerzo</h4>
+                            <p class="card-text">Almuerzo buffet tofu.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/buffet2.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Almuerzo 2</h4>
+                            <p class="card-text">
+                              Almuerzo buffet toque jalapeño.
+                            </p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- MENU 2 -->
+                  <div id="carnes" class="container tab-pane fade bg-white">
+                    <br />
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/dedospollo.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Dedos de pollo</h4>
+                            <p class="card-text">Se calienta y listo.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/chicha.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Chicharrón</h4>
+                            <p class="card-text">Chicharron vegano frito.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/nugets.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Nuggets</h4>
+                            <p class="card-text">Nuggets veganos, fritos.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                  </div>
+                  <!-- MENU 3 -->
+                  <div id="dulces" class="container tab-pane fade bg-white">
+                    <br />
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/dulce1.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Cup cake</h4>
+                            <p class="card-text">Cup cake vegano</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/dulce2jpg.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Flan</h4>
+                            <p class="card-text">Crema vegana de blueberry .</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/ventas/dulce.jpg"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Pastel</h4>
+                            <p class="card-text">Pastel vegano 12 personas.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- MENU 4 -->
+                  <div id="bebidas" class="container tab-pane bg-white fade">
+                    <br />
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top rounded-circle"
+                            src="imagenes/circulo.png"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Bebida 1</h4>
+                            <p class="card-text">Texto ejemplo.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top"
+                            src="imagenes/circulo.png"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Bebida 2</h4>
+                            <p class="card-text">Texto ejemplo.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card" style="width: 100%">
+                          <img
+                            class="card-img-top"
+                            src="imagenes/circulo.png"
+                            alt="Card image"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Bebida 3</h4>
+                            <p class="card-text">Texto ejemplo.</p>
+                            <a href="#" class="btn btn-success an">Añadir</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 corta bg-warning" style="color: white">
+              Menu pago
+            </div>
+          </div>
+
+          <br />
         </div>
+      </div>
     </div>
 
     <!--FUNCION PARA EL MENU-->
