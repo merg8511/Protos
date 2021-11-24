@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--MENU Y BACKGROUND-->
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/pagos.css" rel="stylesheet" />
+    <!--BOOTSTRAP 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"rel="stylesheet"/>
+    <!--FUNCION PARA EL MENU-->
+    <script src="JS/scritp.js"></script>
+    <!--ICONOS DEL FOOTER-->
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>Pagos</title>    
+</head>
+<body>
+    <!--MENU-->
+    <header>
+      <div w3-include-html="menu.html"></div>
+    </header>
+    <!--FUNCION PARA EL MENU-->
+    <script>
+      includeHTML();
+    </script>
+    <section class="seccion1">
+        <div>
+            <p>Confirmacion de pago</p><hr class="hr1">
+        </div>
+    </section>
+    <section class="seccion0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form1">
+                        <div class="contact-form">
+                          <form action="index.html" autocomplete="off">
+                            <div class="input-container">
+                                <h6 class="title2">Formas de pago:</h6><hr>
+                                <h6 class="texto1">Pago con tarjeta:</h6>
+                                <img class="pago" src="imagenes/tarjeta.png">
+                            </div>
+                            <div class="input-container">
+                                <h6 class="texto1">Bitcoin:</h6>
+                                <img class="pago" src="imagenes/bitcoin.png">
+                            </div>                            
+                            <div class="input-container">
+                                <h6 class="texto1">Pasarela de pago:</h6>
+                                <img class="pago" src="imagenes/paypal.png">                              
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm"><br>
+                    <div class="input-container2"><br><br><br><br>
+                        <h6 class="title5">Detalles:</h6>
+                        <input type="text" name="name" class="input2" placeholder="3 hamburguesas vegetarianas"/>
+                    </div>
+                    <div class="input-container2">
+                        <h6 class="title1">Numero de operación:</h6>
+                        <input type="email" name="email" class="input2" placeholder="123456" />
+                    </div>
+                    <div class="input-container2">
+                        <h6 class="title1">Cantidad a Pagar:</h6>
+                        <input type="tel" name="phone" class="input2" placeholder="$30.00"/>
+                    </div>
+                    <div class="input-container2">
+                        <h6 class="title1">Dirección:</h6>
+                        <input type="tel" name="phone" class="input2" placeholder="Santa Tecla, La Libertad"/>
+                    </div>
+                    <input type="submit" value="Pagar" class="btn1" />
+               </div>        
+    </section>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Mi Kai</h4>
+                   <ul>
+                       <li><a href="#">Promociones</a></li>
+                       <li><a href="#">Postres & Bebidas</a></li>
+                       <li><a href="#">Platos Principales</a></li>
+                   </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Ayuda</h4>
+                   <ul>
+                       <li><a href="#">Inicio</a></li>
+                       <li><a href="#">Contacto</a></li>
+                       <li><a href="#">Nosotros</a></li>
+                   </ul>
+            </div>
+            <div class="footer-col">
+              <h4>SIGUENOS</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+</body>
+</html>
