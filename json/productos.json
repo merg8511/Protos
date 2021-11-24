@@ -1,0 +1,129 @@
+[
+    {
+        "title": "Pan Bao",
+        "id": 1,
+        "precio": 1.00,
+        "imagen": "imagenes/ventas/pan.jpg",
+        "categoria": 1
+    },
+    {
+        "title": "Pan con pavis",
+        "id": 2,
+        "precio": 3,
+        "imagen": "imagenes/ventas/pavo.jpg",
+        "categoria": 1
+    },
+    {
+        "title": "Alitas de coliflor",
+        "id": 3,
+        "precio": 4,
+        "imagen": "imagenes/ventas/alitas.jpg",
+        "categoria": 1
+    },
+    {
+        "title": "Medallones",
+        "id": 4,
+        "precio": 4,
+        "imagen": "imagenes/ventas/medallones.jpg",
+        "categoria": 1
+    },
+    {
+        "title": "Burritos",
+        "id": 5,
+        "precio": 4,
+        "imagen": "imagenes/ventas/burritos.jpg",
+        "categoria": 1
+    },
+    {
+        "title": "Pupusas",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/pupusas.jpg",
+        "categoria": 1
+    },
+    {
+        "title": "Pollo Agridulce",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/agri.jpg",
+        "categoria": 2
+    },
+    {
+        "title": "Almuerzo",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/buffet.jpg",
+        "categoria": 2
+    },
+    {
+        "title": "Almuerzo 2",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/buffet2.jpg",
+        "categoria": 2
+    },
+    {
+        "title": "Dedos de pollo",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/dedospollo.jpg",
+        "categoria": 3
+    },
+    {
+        "title": "Chicharrón",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/chicha.jpg",
+        "categoria": 3
+    },
+    {
+        "title": "Nuggets",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/nugets.jpg",
+        "categoria": 3
+    },
+    {
+        "title": "Cup Cake",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/dulce.jpg",
+        "categoria": 4
+    },
+    {
+        "title": "Flan",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/dulce1.jpg",
+        "categoria": 4
+    },
+    {
+        "title": "Pastel",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/dulce2.jpg",
+        "categoria": 4
+    },
+    {
+        "title": "Bebida 1",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/alitas.jpg",
+        "categoria": 5
+    },
+    {
+        "title": "Bebida 2",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/alitas.jpg",
+        "categoria": 5
+    },
+    {
+        "title": "Bebida 3",
+        "id": 6,
+        "precio": 4,
+        "imagen": "imagenes/ventas/alitas.jpg",
+        "categoria": 5
+    }
+]
+
