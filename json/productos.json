@@ -43,86 +43,86 @@
     },
     {
         "title": "Pollo Agridulce",
-        "id": 6,
+        "id": 7,
         "precio": 4,
         "imagen": "imagenes/ventas/agri.jpg",
         "categoria": 2
     },
     {
         "title": "Almuerzo",
-        "id": 6,
+        "id": 8,
         "precio": 4,
         "imagen": "imagenes/ventas/buffet.jpg",
         "categoria": 2
     },
     {
         "title": "Almuerzo 2",
-        "id": 6,
+        "id": 9,
         "precio": 4,
         "imagen": "imagenes/ventas/buffet2.jpg",
         "categoria": 2
     },
     {
         "title": "Dedos de pollo",
-        "id": 6,
+        "id": 10,
         "precio": 4,
         "imagen": "imagenes/ventas/dedospollo.jpg",
         "categoria": 3
     },
     {
         "title": "Chicharrón",
-        "id": 6,
+        "id": 11,
         "precio": 4,
         "imagen": "imagenes/ventas/chicha.jpg",
         "categoria": 3
     },
     {
         "title": "Nuggets",
-        "id": 6,
+        "id": 12,
         "precio": 4,
         "imagen": "imagenes/ventas/nugets.jpg",
         "categoria": 3
     },
     {
         "title": "Cup Cake",
-        "id": 6,
-        "precio": 4,
-        "imagen": "imagenes/ventas/dulce.jpg",
-        "categoria": 4
-    },
-    {
-        "title": "Flan",
-        "id": 6,
+        "id": 13,
         "precio": 4,
         "imagen": "imagenes/ventas/dulce1.jpg",
         "categoria": 4
     },
     {
-        "title": "Pastel",
-        "id": 6,
+        "title": "Flan",
+        "id": 14,
         "precio": 4,
         "imagen": "imagenes/ventas/dulce2.jpg",
         "categoria": 4
     },
     {
-        "title": "Bebida 1",
-        "id": 6,
+        "title": "Pastel",
+        "id": 15,
         "precio": 4,
-        "imagen": "imagenes/ventas/alitas.jpg",
+        "imagen": "imagenes/ventas/dulce.jpg",
+        "categoria": 4
+    },
+    {
+        "title": "Tapioca papaya",
+        "id": 16,
+        "precio": 4,
+        "imagen": "imagenes/ventas/tapioca.jpg",
         "categoria": 5
     },
     {
-        "title": "Bebida 2",
-        "id": 6,
+        "title": "Mojito Blue Tea",
+        "id": 17,
         "precio": 4,
-        "imagen": "imagenes/ventas/alitas.jpg",
+        "imagen": "imagenes/ventas/MojitoBlueTea.jpg",
         "categoria": 5
     },
     {
-        "title": "Bebida 3",
-        "id": 6,
+        "title": "Jelly de café",
+        "id": 18,
         "precio": 4,
-        "imagen": "imagenes/ventas/alitas.jpg",
+        "imagen": "imagenes/ventas/JellyCafe.jpg",
         "categoria": 5
     }
 ]
