@@ -29,8 +29,9 @@
   outline: none;
   cursor: pointer;
   transition: 0.3s;
-  margin-left: 25%;
-  margin-top: 12%;
+  
+  /*margin-left: 25%;*/
+  /*margin-top: 12%;*/
 }
 .btn1:hover 
 {
@@ -67,11 +68,11 @@
 }
 .pago{
     width: 45%;
+    height: 45%;
     border-radius: 40px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
-    margin-left: 10%;
-    margin-top: 5%;
-    padding: 0.1rem 1.2rem;
+    /*margin-left: 10%;
+    margin-top: 5%;*/
     transition: 0.3s;
     background-color:lightgray;
     border: 1px solid gray;
@@ -84,13 +85,11 @@
     background-color: transparent;
     color: #64C2C2;
 }
-.title2{
-    margin-left: 20%;
-}
+
 .texto1{
     margin-left: 10%;
     margin-top: 5%;
-    margin-bottom:0cm;
+    margin-bottom: 5%;
 }
 .titlte5{
     margin-left: 10%;

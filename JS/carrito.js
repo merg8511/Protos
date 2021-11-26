@@ -180,6 +180,12 @@ const pintarFooter = () => {
         carrito = {}
         pintarCarrito()
     })
+
+    //const btnPagar = document.getElementById('pagar')
+    //btnPagar.addEventListener('click', () => {
+    //    console.log(carrito)
+   // })
+
 }
 
 const btnAccion = e => {
@@ -203,3 +209,5 @@ const btnAccion = e => {
 
     e.stopPropagation()
 }
+
+
