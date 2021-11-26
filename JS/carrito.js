@@ -1,10 +1,18 @@
 const cards = document.getElementById('cards')
+const cards2 = document.getElementById('cards2')
+const cards3 = document.getElementById('cards3')
+const cards4 = document.getElementById('cards4')
+const cards5 = document.getElementById('cards5')
 const items = document.getElementById('items')
 const footer = document.getElementById('footer')
 const templateCard = document.getElementById('template-card').content
 const templateFooter = document.getElementById('template-footer').content
 const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
+const fragment2 = document.createDocumentFragment()
+const fragment3 = document.createDocumentFragment()
+const fragment4 = document.createDocumentFragment()
+const fragment5 = document.createDocumentFragment()
 let carrito = {}
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,6 +24,22 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 cards.addEventListener('click', e => {
+    addCarrito(e)
+})
+
+cards2.addEventListener('click', e => {
+    addCarrito(e)
+})
+
+cards3.addEventListener('click', e => {
+    addCarrito(e)
+})
+
+cards4.addEventListener('click', e => {
+    addCarrito(e)
+})
+
+cards5.addEventListener('click', e => {
     addCarrito(e)
 })
 
@@ -36,15 +60,53 @@ const fetchData = async() => {
 
 const pintarCards = data => {
     data.forEach(producto => {
-        templateCard.querySelector('h5').textContent = producto.title
-        templateCard.querySelector('p').textContent = producto.precio
-        templateCard.querySelector('img').setAttribute("src", producto.imagen)
-        templateCard.querySelector('.btn-dark').dataset.id = producto.id
-
-        const clone = templateCard.cloneNode(true)
-        fragment.appendChild(clone)
+        if(producto.categoria === 1) {
+            templateCard.querySelector('h5').textContent = producto.title
+            templateCard.querySelector('span').textContent = producto.precio
+            templateCard.querySelector('img').setAttribute("src", producto.imagen)
+            templateCard.querySelector('.btn-dark').dataset.id = producto.id
+            const clone = templateCard.cloneNode(true)
+            fragment.appendChild(clone)
+        }
+        if(producto.categoria === 2){ 
+            templateCard.querySelector('h5').textContent = producto.title
+            templateCard.querySelector('span').textContent = producto.precio
+            templateCard.querySelector('img').setAttribute("src", producto.imagen)
+            templateCard.querySelector('.btn-dark').dataset.id = producto.id
+            const clone = templateCard.cloneNode(true)
+            fragment2.appendChild(clone)
+        }
+        if(producto.categoria === 3){ 
+            templateCard.querySelector('h5').textContent = producto.title
+            templateCard.querySelector('span').textContent = producto.precio
+            templateCard.querySelector('img').setAttribute("src", producto.imagen)
+            templateCard.querySelector('.btn-dark').dataset.id = producto.id
+            const clone = templateCard.cloneNode(true)
+            fragment3.appendChild(clone)
+        }
+        if(producto.categoria === 4){ 
+            templateCard.querySelector('h5').textContent = producto.title
+            templateCard.querySelector('span').textContent = producto.precio
+            templateCard.querySelector('img').setAttribute("src", producto.imagen)
+            templateCard.querySelector('.btn-dark').dataset.id = producto.id
+            const clone = templateCard.cloneNode(true)
+            fragment4.appendChild(clone)
+        }
+        if(producto.categoria === 5){ 
+            templateCard.querySelector('h5').textContent = producto.title
+            templateCard.querySelector('span').textContent = producto.precio
+            templateCard.querySelector('img').setAttribute("src", producto.imagen)
+            templateCard.querySelector('.btn-dark').dataset.id = producto.id
+            const clone = templateCard.cloneNode(true)
+            fragment5.appendChild(clone)
+        }
+        
     });
     cards.appendChild(fragment)
+    cards2.appendChild(fragment2)
+    cards3.appendChild(fragment3)
+    cards4.appendChild(fragment4)
+    cards5.appendChild(fragment5)
 }
 
 const addCarrito = e => {
@@ -61,7 +123,7 @@ const setCarrito = objeto => {
     const producto  = {
         id: objeto.querySelector('.btn-dark').dataset.id,
         title: objeto.querySelector('h5').textContent,
-        precio: objeto.querySelector('p').textContent,
+        precio: objeto.querySelector('span').textContent,
         cantidad: 1
     }
     if(carrito.hasOwnProperty(producto.id)){
@@ -84,6 +146,7 @@ const pintarCarrito = () => {
         templateCarrito.querySelector('span').textContent = producto.cantidad * producto.precio
         const clone = templateCarrito.cloneNode(true)
         fragment.appendChild(clone)
+        
     })
     
     items.appendChild(fragment)

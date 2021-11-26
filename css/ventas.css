@@ -27,15 +27,7 @@ body {margin:0}
   background-color: #E7FEFE;
 }
 
-.card-body {
-  background-color: #E7FEFE;
-}
-
-.card-title, .card-text {
-  color: black;
+.cont, h5,p {
+  color: #000;
   text-align: center;
-}
-
-.an {
-  margin-left: 25%;
 }
