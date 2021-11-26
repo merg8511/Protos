@@ -2,126 +2,126 @@
     {
         "title": "Pan Bao",
         "id": 1,
-        "precio": 1.00,
+        "precio": 2.5,
         "imagen": "imagenes/ventas/pan.jpg",
         "categoria": 1
     },
     {
         "title": "Pan con pavis",
         "id": 2,
-        "precio": 3,
+        "precio": 3.00,
         "imagen": "imagenes/ventas/pavo.jpg",
         "categoria": 1
     },
     {
         "title": "Alitas de coliflor",
         "id": 3,
-        "precio": 4,
+        "precio": 5.50,
         "imagen": "imagenes/ventas/alitas.jpg",
         "categoria": 1
     },
     {
         "title": "Medallones",
         "id": 4,
-        "precio": 4,
+        "precio": 4.50,
         "imagen": "imagenes/ventas/medallones.jpg",
         "categoria": 1
     },
     {
         "title": "Burritos",
         "id": 5,
-        "precio": 4,
+        "precio": 6.5,
         "imagen": "imagenes/ventas/burritos.jpg",
         "categoria": 1
     },
     {
         "title": "Pupusas",
         "id": 6,
-        "precio": 4,
+        "precio": 1.00,
         "imagen": "imagenes/ventas/pupusas.jpg",
         "categoria": 1
     },
     {
         "title": "Pollo Agridulce",
         "id": 7,
-        "precio": 4,
+        "precio": 5.50,
         "imagen": "imagenes/ventas/agri.jpg",
         "categoria": 2
     },
     {
         "title": "Almuerzo",
         "id": 8,
-        "precio": 4,
+        "precio": 3.00,
         "imagen": "imagenes/ventas/buffet.jpg",
         "categoria": 2
     },
     {
         "title": "Almuerzo 2",
         "id": 9,
-        "precio": 4,
+        "precio": 3.50,
         "imagen": "imagenes/ventas/buffet2.jpg",
         "categoria": 2
     },
     {
         "title": "Dedos de pollo",
         "id": 10,
-        "precio": 4,
+        "precio": 4.5,
         "imagen": "imagenes/ventas/dedospollo.jpg",
         "categoria": 3
     },
     {
         "title": "Chicharrón",
         "id": 11,
-        "precio": 4,
+        "precio": 4.00,
         "imagen": "imagenes/ventas/chicha.jpg",
         "categoria": 3
     },
     {
         "title": "Nuggets",
         "id": 12,
-        "precio": 4,
+        "precio": 4.00,
         "imagen": "imagenes/ventas/nugets.jpg",
         "categoria": 3
     },
     {
         "title": "Cup Cake",
         "id": 13,
-        "precio": 4,
+        "precio": 1.50,
         "imagen": "imagenes/ventas/dulce1.jpg",
         "categoria": 4
     },
     {
         "title": "Flan",
         "id": 14,
-        "precio": 4,
+        "precio": 1.00,
         "imagen": "imagenes/ventas/dulce2.jpg",
         "categoria": 4
     },
     {
         "title": "Pastel",
         "id": 15,
-        "precio": 4,
+        "precio": 21.90,
         "imagen": "imagenes/ventas/dulce.jpg",
         "categoria": 4
     },
     {
         "title": "Tapioca papaya",
         "id": 16,
-        "precio": 4,
+        "precio": 1.50,
         "imagen": "imagenes/ventas/tapioca.jpg",
         "categoria": 5
     },
     {
         "title": "Mojito Blue Tea",
         "id": 17,
-        "precio": 4,
+        "precio": 1.50,
         "imagen": "imagenes/ventas/MojitoBlueTea.jpg",
         "categoria": 5
     },
     {
         "title": "Jelly de café",
         "id": 18,
-        "precio": 4,
+        "precio": 1.50,
         "imagen": "imagenes/ventas/JellyCafe.jpg",
         "categoria": 5
     }
