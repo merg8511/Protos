@@ -4,6 +4,12 @@
     height: auto;
     border-radius: 5%;
 }
+.seccion-8 {
+    background-image: url("..//imagenes/circulo2.png");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
 .container-1{
 	max-width: 1170px;
 	margin:auto;
