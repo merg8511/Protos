@@ -17,6 +17,14 @@ body, html {
   background-repeat: no-repeat;
   background-position-x: 30em;
 }
+.logo-1{
+
+  width: 80%;
+  height: 50%;
+  margin-left: 40%;
+
+
+}
 .food {
   width: 120%;
   height: auto;
@@ -128,11 +136,13 @@ ul{
       width: 100%;
   }
   }
-  .btn-menu 
+  .btn-menu1 
   {
-    padding: 0.6rem 1.3rem;
+    padding: 0.3rem 1.3rem;
+    width:100px;
+    height:30px;
     background-color: #fff;
-    border: 2px solid #64C2C2;
+    border: 1px solid #64C2C2;
     font-size: 0.95rem;
     color: black;
     line-height: 1;
@@ -140,7 +150,10 @@ ul{
     outline: none;
     cursor: pointer;
     transition: 0.3s;
-    margin: 100;
+    margin-left: 5%;
+    background-color: #edf6f9; 
+    border-radius: 12px;
+    
   }
   .btn:hover 
   {
